@@ -1,0 +1,6 @@
+[submodule "submodules/triton-viz"]
+	path = submodules/triton-viz
+	url = git@github.com:Deep-Learning-Profiling-Tools/triton-viz.git
+[submodule "submodules/aiter"]
+	path = submodules/aiter
+	url = https://github.com/ROCm/aiter
