@@ -1,0 +1,21 @@
+[project]
+name = "race-detector-experiments"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "triton-viz",
+    "torch",
+]
+
+[tool.uv.sources]
+triton-viz = { path = "submodules/triton-viz", editable = true }
+
+[tool.setuptools]
+packages = []
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "numpy",
+    "torch",
+]
